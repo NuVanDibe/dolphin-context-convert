@@ -16,4 +16,4 @@ Right-click file in Dolphin -> Choose format. Can converet video to mp3 as a bon
 ## Formats
 
 - Audio: MP3, AAC, OGG, WMA, FLAC, ALAC, WAV, AIFF
-- Video: MP4, AVI, MOV, MKV, WMV, FLV, MPG, OGG
+- Video: MP4, AVI, MOV, MKV, WMV, FLV, MPG, OGV

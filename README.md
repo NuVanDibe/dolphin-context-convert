@@ -4,8 +4,10 @@ Right-click to convert audio/video in KDE Plasma. Uses FFmpeg. I only deal in KD
 
 ## Install
 
-1. `chmod +x ffmpegconvert.sh`
+1. put `ffmpegconvert.sh` in `~/Scripts/`
 2. Put `.desktop` files in `~/.local/share/kservices5/ServiceMenus/`.
+3. `chmod +x ~/Scripts/ffmpegconvert.sh`
+4. edit `.desktop` files if you want the script elsewhere idk im not your mom
 
 ## Use
 

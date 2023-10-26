@@ -2,6 +2,10 @@
 
 Right-click to convert audio/video in KDE Plasma. Uses FFmpeg. I only deal in KDE rn, feel free to PR for more compatibility
 
+## Requirements
+1. ffmpeg
+2. zenity
+
 ## Install
 
 1. put `ffmpegconvert.sh` in `~/Scripts/`

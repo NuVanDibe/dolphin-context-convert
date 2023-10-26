@@ -2,7 +2,7 @@
 Type=Service
 ServiceTypes=KonqPopupMenu/Plugin
 MimeType=video/*;
-Actions=ConvertToMP4;ConvertToAVI;ConvertToMOV;ConvertToMKV;ConvertToWMV;ConvertToFLV;ConvertToMPG;ConvertToMP3;ConvertToOGG;ConvertToWebM;
+Actions=ConvertToMP4;ConvertToAVI;ConvertToMOV;ConvertToMKV;ConvertToWMV;ConvertToFLV;ConvertToMPG;ConvertToMP3;ConvertToOGV;ConvertToWebM;
 X-KDE-Submenu=Convert Video
 Icon=video-x-generic
 X-KDE-StartupNotify=false
@@ -42,9 +42,9 @@ Name=Convert to MPG
 Exec=~/Scripts/ffmpegconvert.sh %U mpg
 Icon=video-x-mpeg
 
-[Desktop Action ConvertToOGG]
-Name=Convert to OGG
-Exec=~/Scripts/ffmpegconvert.sh %U ogg
+[Desktop Action ConvertToOGV]
+Name=Convert to OGV
+Exec=~/Scripts/ffmpegconvert.sh %U ogv
 Icon=video-x-theora+ogg
 
 [Desktop Action ConvertToWebM]

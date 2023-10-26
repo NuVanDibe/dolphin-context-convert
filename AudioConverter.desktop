@@ -2,7 +2,7 @@
 Type=Service
 ServiceTypes=KonqPopupMenu/Plugin
 MimeType=audio/*;
-Actions=ConvertToMP3;ConvertToAAC;ConvertToOGG;ConvertToWMA;ConvertToFLAC;ConvertToALAC;ConvertToWAV;ConvertToAIFF;
+Actions=ConvertToMP3;ConvertToAAC;ConvertToOGG;ConvertToWMA;ConvertToFLAC;ConvertToM4A;ConvertToALAC;ConvertToWAV;ConvertToAIFF;
 X-KDE-Submenu=Convert Audio
 Icon=audio-x-generic
 X-KDE-StartupNotify=false
@@ -32,8 +32,13 @@ Name=Convert to FLAC
 Exec=~/Scripts/ffmpegconvert.sh %U flac
 Icon=audio-x-flac
 
+[Desktop Action ConvertToM4A]
+Name=Convert to M4A
+Exec=~/Scripts/ffmpegconvert.sh %U m4a
+Icon=audio-m4a
+
 [Desktop Action ConvertToALAC]
-Name=Convert to ALAC
+Name=Convert to M4A (ALAC)
 Exec=~/Scripts/ffmpegconvert.sh %U alac
 Icon=audio-alac
 

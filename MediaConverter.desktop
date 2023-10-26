@@ -1,0 +1,58 @@
+[Desktop Entry]
+Type=Service
+ServiceTypes=KonqPopupMenu/Plugin
+MimeType=video/*;
+Actions=ConvertToMP4;ConvertToAVI;ConvertToMOV;ConvertToMKV;ConvertToWMV;ConvertToFLV;ConvertToMPG;ConvertToMP3;ConvertToOGG;ConvertToWebM;
+X-KDE-Submenu=Convert Video
+Icon=video-x-generic
+X-KDE-StartupNotify=false
+
+[Desktop Action ConvertToMP4]
+Name=Convert to MP4
+Exec=~/Scripts/ffmpegconvert.sh %U mp4
+Icon=video-mp4
+
+[Desktop Action ConvertToAVI]
+Name=Convert to AVI
+Exec=~/Scripts/ffmpegconvert.sh %U avi
+Icon=video-x-msvideo
+
+[Desktop Action ConvertToMOV]
+Name=Convert to MOV
+Exec=~/Scripts/ffmpegconvert.sh %U mov
+Icon=video-quicktime
+
+[Desktop Action ConvertToMKV]
+Name=Convert to MKV
+Exec=~/Scripts/ffmpegconvert.sh %U mkv
+Icon=video-x-matroska
+
+[Desktop Action ConvertToWMV]
+Name=Convert to WMV
+Exec=~/Scripts/ffmpegconvert.sh %U wmv
+Icon=video-x-ms-wmv
+
+[Desktop Action ConvertToFLV]
+Name=Convert to FLV
+Exec=~/Scripts/ffmpegconvert.sh %U flv
+Icon=video-x-flv
+
+[Desktop Action ConvertToMPG]
+Name=Convert to MPG
+Exec=~/Scripts/ffmpegconvert.sh %U mpg
+Icon=video-x-mpeg
+
+[Desktop Action ConvertToOGG]
+Name=Convert to OGG
+Exec=~/Scripts/ffmpegconvert.sh %U ogg
+Icon=video-x-theora+ogg
+
+[Desktop Action ConvertToWebM]
+Name=Convert to WebM
+Exec=~/Scripts/ffmpegconvert.sh %U webm
+Icon=video-webm
+
+[Desktop Action ConvertToMP3]
+Name=Convert to MP3
+Exec=~/Scripts/ffmpegconvert.sh %U mp3
+Icon=audio-mp3

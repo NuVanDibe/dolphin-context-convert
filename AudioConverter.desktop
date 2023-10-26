@@ -1,0 +1,48 @@
+[Desktop Entry]
+Type=Service
+ServiceTypes=KonqPopupMenu/Plugin
+MimeType=audio/*;
+Actions=ConvertToMP3;ConvertToAAC;ConvertToOGG;ConvertToWMA;ConvertToFLAC;ConvertToALAC;ConvertToWAV;ConvertToAIFF;
+X-KDE-Submenu=Convert Audio
+Icon=audio-x-generic
+X-KDE-StartupNotify=false
+
+[Desktop Action ConvertToMP3]
+Name=Convert to MP3
+Exec=~/Scripts/ffmpegconvert.sh %U mp3
+Icon=audio-mpeg
+
+[Desktop Action ConvertToAAC]
+Name=Convert to AAC
+Exec=~/Scripts/ffmpegconvert.sh %U aac
+Icon=audio-aac
+
+[Desktop Action ConvertToOGG]
+Name=Convert to OGG
+Exec=~/Scripts/ffmpegconvert.sh %U ogg
+Icon=audio-x-vorbis+ogg
+
+[Desktop Action ConvertToWMA]
+Name=Convert to WMA
+Exec=~/Scripts/ffmpegconvert.sh %U wma
+Icon=audio-x-ms-wma
+
+[Desktop Action ConvertToFLAC]
+Name=Convert to FLAC
+Exec=~/Scripts/ffmpegconvert.sh %U flac
+Icon=audio-x-flac
+
+[Desktop Action ConvertToALAC]
+Name=Convert to ALAC
+Exec=~/Scripts/ffmpegconvert.sh %U alac
+Icon=audio-alac
+
+[Desktop Action ConvertToWAV]
+Name=Convert to WAV
+Exec=~/Scripts/ffmpegconvert.sh %U wav
+Icon=audio-x-wav
+
+[Desktop Action ConvertToAIFF]
+Name=Convert to AIFF
+Exec=~/Scripts/ffmpegconvert.sh %U aiff
+Icon=audio-x-aiff

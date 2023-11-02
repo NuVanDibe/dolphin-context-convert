@@ -9,45 +9,45 @@ X-KDE-StartupNotify=false
 
 [Desktop Action ConvertToMP3]
 Name=Convert to MP3
-Exec=~/Scripts/ffmpegconvert.sh %U mp3
+Exec=~/Scripts/ffmpegconvert.sh %U mp3 audio
 Icon=audio-mpeg
 
 [Desktop Action ConvertToAAC]
 Name=Convert to AAC
-Exec=~/Scripts/ffmpegconvert.sh %U aac
+Exec=~/Scripts/ffmpegconvert.sh %U aac audio
 Icon=audio-aac
 
 [Desktop Action ConvertToOGG]
 Name=Convert to OGG
-Exec=~/Scripts/ffmpegconvert.sh %U ogg
+Exec=~/Scripts/ffmpegconvert.sh %U ogg audio
 Icon=audio-x-vorbis+ogg
 
 [Desktop Action ConvertToWMA]
 Name=Convert to WMA
-Exec=~/Scripts/ffmpegconvert.sh %U wma
+Exec=~/Scripts/ffmpegconvert.sh %U wma audio
 Icon=audio-x-ms-wma
 
 [Desktop Action ConvertToFLAC]
 Name=Convert to FLAC
-Exec=~/Scripts/ffmpegconvert.sh %U flac
+Exec=~/Scripts/ffmpegconvert.sh %U flac audio
 Icon=audio-x-flac
 
 [Desktop Action ConvertToM4A]
 Name=Convert to M4A
-Exec=~/Scripts/ffmpegconvert.sh %U m4a
+Exec=~/Scripts/ffmpegconvert.sh %U m4a audio
 Icon=audio-m4a
 
 [Desktop Action ConvertToALAC]
 Name=Convert to M4A (ALAC)
-Exec=~/Scripts/ffmpegconvert.sh %U alac
+Exec=~/Scripts/ffmpegconvert.sh %U alac audio
 Icon=audio-alac
 
 [Desktop Action ConvertToWAV]
 Name=Convert to WAV
-Exec=~/Scripts/ffmpegconvert.sh %U wav
+Exec=~/Scripts/ffmpegconvert.sh %U wav audio
 Icon=audio-x-wav
 
 [Desktop Action ConvertToAIFF]
 Name=Convert to AIFF
-Exec=~/Scripts/ffmpegconvert.sh %U aiff
+Exec=~/Scripts/ffmpegconvert.sh %U aiff audio
 Icon=audio-x-aiff

@@ -9,50 +9,50 @@ X-KDE-StartupNotify=false
 
 [Desktop Action ConvertToMP4]
 Name=Convert to MP4
-Exec=~/Scripts/ffmpegconvert.sh %U mp4
+Exec=~/Scripts/ffmpegconvert.sh %U mp4 video
 Icon=video-mp4
 
 [Desktop Action ConvertToAVI]
 Name=Convert to AVI
-Exec=~/Scripts/ffmpegconvert.sh %U avi
+Exec=~/Scripts/ffmpegconvert.sh %U avi video
 Icon=video-x-msvideo
 
 [Desktop Action ConvertToMOV]
 Name=Convert to MOV
-Exec=~/Scripts/ffmpegconvert.sh %U mov
+Exec=~/Scripts/ffmpegconvert.sh %U mov video
 Icon=video-quicktime
 
 [Desktop Action ConvertToMKV]
 Name=Convert to MKV
-Exec=~/Scripts/ffmpegconvert.sh %U mkv
+Exec=~/Scripts/ffmpegconvert.sh %U mkv video
 Icon=video-x-matroska
 
 [Desktop Action ConvertToWMV]
 Name=Convert to WMV
-Exec=~/Scripts/ffmpegconvert.sh %U wmv
+Exec=~/Scripts/ffmpegconvert.sh %U wmv video
 Icon=video-x-ms-wmv
 
 [Desktop Action ConvertToFLV]
 Name=Convert to FLV
-Exec=~/Scripts/ffmpegconvert.sh %U flv
+Exec=~/Scripts/ffmpegconvert.sh %U flv video
 Icon=video-x-flv
 
 [Desktop Action ConvertToMPG]
 Name=Convert to MPG
-Exec=~/Scripts/ffmpegconvert.sh %U mpg
+Exec=~/Scripts/ffmpegconvert.sh %U mpg video
 Icon=video-x-mpeg
 
 [Desktop Action ConvertToOGV]
 Name=Convert to OGV
-Exec=~/Scripts/ffmpegconvert.sh %U ogv
+Exec=~/Scripts/ffmpegconvert.sh %U ogv video
 Icon=video-x-theora+ogg
 
 [Desktop Action ConvertToWebM]
 Name=Convert to WebM
-Exec=~/Scripts/ffmpegconvert.sh %U webm
+Exec=~/Scripts/ffmpegconvert.sh %U webm video
 Icon=video-webm
 
 [Desktop Action ConvertToMP3]
 Name=Convert to MP3
-Exec=~/Scripts/ffmpegconvert.sh %U mp3
+Exec=~/Scripts/ffmpegconvert.sh %U mp3 video
 Icon=audio-mp3
